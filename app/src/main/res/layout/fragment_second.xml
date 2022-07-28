@@ -3,12 +3,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#88FF0000">
+    android:background="#8800ff00">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="firstFrag"
+        android:text="secondFrag"
         android:layout_gravity="center"/>
 
 </LinearLayout>
