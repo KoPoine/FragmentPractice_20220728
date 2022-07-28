@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.neppplus.fragmentpractice_20220728.R
+import kotlinx.android.synthetic.main.fragment_third.*
 
 class ThirdFragment : Fragment(){
 
@@ -22,7 +24,9 @@ class ThirdFragment : Fragment(){
 //    Fragment의 동작 코드 작성
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
+        toastBtn.setOnClickListener {
+            Toast.makeText(requireContext(), "thirdFrag입니다.", Toast.LENGTH_SHORT).show()
+        }
     }
 
 }
